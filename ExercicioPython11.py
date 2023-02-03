@@ -52,7 +52,8 @@ print('O valor frexp é {}' .format(teste3))
 
 teste7 = math.asinh(n1)
 #Retorna o seno hiperbólico inverso de x.
-print('O valor é {}' .format(teste7))
+#A função seno hiperbólico inverso (asinh) é uma função matemática que retorna o seno hiperbólico inverso de um número. Ela é definida como a função logarítmica com base no logaritmo natural (ln), de tal forma que: asinh (x) = ln (x + sqrt (x^2 + 1))
+print('O valor asinh é {}' .format(teste7))
 
 teste8 = math.atan(n1)
 #Retorna o arco tangente de x, em radianos. O resultado está entre -pi/2 e pi/2.
@@ -84,7 +85,7 @@ print('O valor cbrt é {}' .format(teste11))
 
 teste14 = math.cos(n1)
 #Retorna o cosseno de x radianos.
-print('O valor é {}' .format(teste14))
+print('O valor de cos é {}' .format(teste14))
 
 #teste16 = math.factorial(n1)
 #Retorna o fatorial de n como um inteiro. Levanta ValueError se n não for um inteiro ou for negativo.
@@ -93,7 +94,7 @@ print('O valor é {}' .format(teste14))
 
 teste17 = math.floor(n1)
 #Retorna o limite mínimo de x, o maior inteiro menor ou igual a x. Se x não é um ponto flutuante, delega para x.__floor__, cujo qual deve retornar um valpr dp tipo Integral
-print('O valor é {}' .format(teste17))
+print('O valor floor / parte inteira é {}' .format(teste17))
 
 #teste18 = math.fsum(n1)
 #fsum(iterable)
@@ -148,21 +149,25 @@ teste30 = math.expm1(n1)
 #Retorna e elevado à potência x, menos 1. Aqui e é a base dos logaritmos naturais. Para pequenos pontos flutuantes x, a subtração em exp(x) - 1 pode resultar em uma perda significativa de precisão; a função expm1() fornece uma maneira de calcular essa quantidade com precisão total:
 print('O valor é {}' .format(teste30))
 
-teste31 = math.log1p(n1)
+#teste31 = math.log1p(n1)
 #Retorna o logaritmo natural de 1+x (base e). O resultado é calculado de forma precisa para x próximo a zero.
-print('O valor é {}' .format(teste31))
+#Quando x <= -1, o argumento da função log1p é negativo, o que resulta em uma exceção "math domain error". Portanto, é importante garantir que o valor de x seja maior que -1 antes de aplicar a função log1p.
+#print('O valor é {}' .format(teste31))
 
-teste32 = math.log2(n1)
+#teste32 = math.log2(n1)
 #Retorna o logaritmo de base 2 de x. Isso geralmente é mais preciso do que log(x, 2).
-print('O valor é {}' .format(teste32))
+##Quando x <= -1, o argumento da função log1p é negativo, o que resulta em uma exceção "math domain error". Portanto, é importante garantir que o valor de x seja maior que -1 antes de aplicar a função log1p.
+#print('O valor é {}' .format(teste32))
 
-teste33 = math.log10(n1)
+#teste33 = math.log10(n1)
 #Retorna o logaritmo de base 10 de x. Isso geralmente é mais preciso do que log(x, 10).
-print('O valor é {}' .format(teste33))
+##Quando x <= -1, o argumento da função log1p é negativo, o que resulta em uma exceção "math domain error". Portanto, é importante garantir que o valor de x seja maior que -1 antes de aplicar a função log1p.
+#print('O valor é {}' .format(teste33))
 
-teste34 = math.sqrt(n1)
+#teste34 = math.sqrt(n1)
 #Retorna a raiz quadrada de x.
-print('O valor é {}' .format(teste34))
+##Quando x <= -1, o argumento da função log1p é negativo, o que resulta em uma exceção "math domain error". Portanto, é importante garantir que o valor de x seja maior que -1 antes de aplicar a função log1p.
+#print('O valor é {}' .format(teste34))
 
 #teste35 = math.acos(n1)
 #Retorna o arco cosseno de x, em radianos. O resultado está entre 0 e pi.
@@ -189,17 +194,20 @@ teste42 = math.radians(n1)
 #Converte o ângulo x de graus para radianos.
 print('O valor é {}' .format(teste42))
 
-teste43 = math.acosh(n1)
-print('O valor é {}' .format(teste43))
+#teste43 = math.acosh(n1)
+#A função cosseno hiperbólico inverso (acosh) é uma função matemática que retorna o arco cosseno hiperbólico inverso de um número. É definida como: acosh(x) = ln(x + sqrt(x^2 - 1)), onde sqrt é a raiz quadrada.
+#Note que o argumento da função acosh deve ser maior ou igual a 1, caso contrário a função não está definida para esse valor.
+#print('O valor é {}' .format(teste43))
 
 teste44 = math.asinh(n1)
+#A função seno hiperbólico inverso (asinh) é uma função matemática que retorna o arco seno hiperbólico inverso de um número. É definida como: asinh(x) = ln(x + sqrt(x^2 + 1)), onde sqrt é a raiz quadrada. A função asinh é útil em muitas aplicações, incluindo geometria, física e cálculo. O intervalo de valores para x na função asinh é todo o conjunto de números reais. Portanto, x pode ser qualquer número real, positivo ou negativo, incluindo 0.
 print('O valor é {}' .format(teste44))
 
-teste45 = math.atanh(n1)
+#teste45 = math.atanh(n1)
 #Retorna a tangente hiperbólica inversa de x.
 # Pra funcionar precisa ser um valor entre -1 e 1 
 # Exemplo : 0.5 , -0.5
-print('O valor é {}' .format(teste45))
+#print('O valor é {}' .format(teste45))
 
 teste47 = math.sinh(n1)
 #Retorna o seno hiperbólico de x.
@@ -217,13 +225,15 @@ teste50 = math.erfc(n1)
 #Retorna a função erro complementar em x. A função erro complementar é definida como 1.0 - erf(x). É usado para grandes valores de x onde uma subtração de um causaria uma perda de significância.
 print('O valor é {}' .format(teste50))
 
-teste51 = math.gamma(n1)
+#teste51 = math.gamma(n1)
+#A função gama (γ) é uma função matemática que representa a função gama completa. Ela é utilizada em muitas áreas, incluindo probabilidade, estatística e cálculo numérico. A função gama é definida como: Γ(x) = (x-1)! para x inteiro positivo, onde ! representa o fatorial. Para valores de x que não são inteiros positivos, a função gama é definida como a solução para a integral de t^(x-1)e^-t dt de 0 a infinito. O intervalo de valores para x na função gama é todo o conjunto de números reais positivos.
 #Retorna a função gama em x.
-print('O valor é {}' .format(teste51))
+#print('O valor é {}' .format(teste51))
 
-teste52 = math.lgamma(n1)
+#teste52 = math.lgamma(n1)
 #Retorna o logaritmo natural do valor absoluto da função gama em x.
-print('O valor é {}' .format(teste52))
+#A função logaritmo gama (lgamma) é uma função matemática que retorna o logaritmo natural (ln) da função gama (γ). É definido como: lgamma(x) = ln(Γ(x)). A função lgamma é útil em muitas aplicações, incluindo probabilidade, estatística e cálculo numérico, pois evita problemas de precisão numérica que podem ocorrer ao calcular diretamente o logaritmo de números muito grandes. O intervalo de valores para x na função lgamma é todo o conjunto de números reais positivos.
+#print('O valor é {}' .format(teste52))
 
 #17- Faça um programa que leia o comprimento do Cateto Oposto e do Cateto Adjacente de um Triângulo Retângulo, calcule e mostre o comprimento da hipotenusa
 
