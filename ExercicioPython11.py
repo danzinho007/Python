@@ -13,7 +13,7 @@ print('O valor ceil é {}' .format(teste1))
 
 teste2 = math.fabs(n1)
 #fabs vai retornar o valor absoluto, ou seja vai deixar positivo o número caso ele seja negativo
-print('O valor é {}' .format(teste2))
+print('O valor fabs é {}' .format(teste2))
 
 teste3 = math.frexp(n1)
 #frexp vai retornar a mantissa ( parte decimal de um logaritmo ) e o expoente de como par
@@ -85,7 +85,7 @@ print('O valor cbrt é {}' .format(teste11))
 
 teste14 = math.cos(n1)
 #Retorna o cosseno de x radianos.
-print('O valor de cos é {}' .format(teste14))
+print('O valor de cos é {:.2f}' .format(teste14))
 
 #teste16 = math.factorial(n1)
 #Retorna o fatorial de n como um inteiro. Levanta ValueError se n não for um inteiro ou for negativo.
@@ -112,7 +112,7 @@ print('O valor floor / parte inteira é {}' .format(teste17))
 
 teste21 = math.isinf(n1)
 #Retorna True se x for um infinito positivo ou negativo, e False caso contrário.
-print('O valor é {}' .format(teste21))
+print('O valor isinf é {}' .format(teste21))
 
 # teste23 = math.isqrt(n1)
 #Retorna a raiz quadrada inteira do inteiro não negativo n. Este é o piso da raiz quadrada exata de n, ou equivalentemente o maior inteiro a tal que a² ≤ n.
@@ -121,11 +121,11 @@ print('O valor é {}' .format(teste21))
 
 teste24 = math.modf(n1)
 #Retorna as partes fracionárias e inteiras de x. Ambos os resultados carregam o sinal de x e são pontos flutuantes.
-print('O valor é {}' .format(teste24))
+print('O valor modf é {}' .format(teste24))
 
 teste25 = math.trunc(n1)
 #Retorna x com a parte fracionária removida, deixando a parte inteira. Isso arredonda para 0: trunc() é equivalente a floor() para x positivos, e equivalentes a ceil() para x negativos. Se x não é um ponto flutuante, então delega para x.__trunc__, cujo qual deve retornar um valor do tipo Integral.
-print('O valor é {}' .format(teste25))
+print('O valor trunc é {}' .format(teste25))
 
 teste26 = math.ulp(n1)
 #Retorna o valor do bit menos significativo do ponto flutuante x:
@@ -135,19 +135,19 @@ teste26 = math.ulp(n1)
 #Se x for igual a zero, retorna o menor valor flutuante positivo desnormalizado representável (menor que o ponto flutuante de valor mínimo positivo normalizado, sys.float_info.min).
 #Se x for igual ao maior ponto flutuante positivo representável, retorna o valor do bit menos significativo de x, tal que o primeiro ponto flutuante menor que x seja x - ulp(x).
 #Caso contrário (x é um número finito positivo), retorna o valor do bit menos significativo de x, de modo que o primeiro ponto flutuante maior que x seja x + ulp(x).
-print('O valor é {}' .format(teste26))
+print('O valor ulp é {}' .format(teste26))
 
 teste28 = math.exp(n1)
 #Retorna e elevado à potência x, onde e = 2.718281… é a base dos logaritmos naturais. Isso geralmente é mais preciso do que math.e ** x ou pow(math.e, x).
-print('O valor é {}' .format(teste28))
+print('O valor exp é {}' .format(teste28))
 
 teste29 = math.exp2(n1)
 #Retorna 2 elevado a x
-print('O valor é {}' .format(teste29))
+print('O valor exp 2 / 2 elevado ao número é igual a {}' .format(teste29))
 
 teste30 = math.expm1(n1)
 #Retorna e elevado à potência x, menos 1. Aqui e é a base dos logaritmos naturais. Para pequenos pontos flutuantes x, a subtração em exp(x) - 1 pode resultar em uma perda significativa de precisão; a função expm1() fornece uma maneira de calcular essa quantidade com precisão total:
-print('O valor é {}' .format(teste30))
+print('O valor expm1 é {}' .format(teste30))
 
 #teste31 = math.log1p(n1)
 #Retorna o logaritmo natural de 1+x (base e). O resultado é calculado de forma precisa para x próximo a zero.
@@ -184,7 +184,7 @@ print('O valor é {}' .format(teste39))
 
 teste40 = math.tan(n1)
 #Retorna o tangente de x radianos.
-print('O valor é {}' .format(teste40))
+print('O valor da tangente em radianos é {}' .format(teste40))
 
 teste41 = math.degrees(n1)
 #Converte o ângulo x de radianos para graus.
@@ -211,7 +211,7 @@ print('O valor é {}' .format(teste44))
 
 teste47 = math.sinh(n1)
 #Retorna o seno hiperbólico de x.
-print('O valor é {}' .format(teste47))
+print('O valor seno é {:.2f}' .format(teste47))
 
 teste48 = math.tanh(n1)
 #Retorna a tangente hiperbólica de x.
@@ -234,14 +234,3 @@ print('O valor é {}' .format(teste50))
 #Retorna o logaritmo natural do valor absoluto da função gama em x.
 #A função logaritmo gama (lgamma) é uma função matemática que retorna o logaritmo natural (ln) da função gama (γ). É definido como: lgamma(x) = ln(Γ(x)). A função lgamma é útil em muitas aplicações, incluindo probabilidade, estatística e cálculo numérico, pois evita problemas de precisão numérica que podem ocorrer ao calcular diretamente o logaritmo de números muito grandes. O intervalo de valores para x na função lgamma é todo o conjunto de números reais positivos.
 #print('O valor é {}' .format(teste52))
-
-#17- Faça um programa que leia o comprimento do Cateto Oposto e do Cateto Adjacente de um Triângulo Retângulo, calcule e mostre o comprimento da hipotenusa
-
-#18- Faça um programa que leia um ângulo e mostre na tela o valor do :
-#Seno, Cosseno, Tangente, Secante, Cossecante e Cotangente
-
-#19- Um professor quer sortear um dos seus 4 alunos para apagar o quadro. Faça um programa que ajude ele lendo o nome deles e escrevendo o nome do escolhido
-
-#20- O mesmo professor quer sortear a ordem de apresentação de trabalha dos alunos. Faça um programa que leia o nome dos 4 alunos e mostre a ordem sorteada
-
-#21- Faça um programa em Python que abra e reproduza o áudio de um arquivo mp3
