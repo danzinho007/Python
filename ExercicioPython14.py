@@ -6,8 +6,14 @@ n2 = input('Digite aqui o nome do 2°       : ')
 n3 = input('Digite aqui o nome do 3°       : ')
 n4 = input('Digite aqui o nome do 4°       : ')
 n5 = input('Digite aqui o nome do 5°       : ')
+
 import random
-sorteio = random.randint(n1, n5)
+sorteio = random.randint(1, 5)
+n1 = 1
+n2 = 2
+n3 = 3
+n4 = 4
+n5 = 5
 print('A pessoa sorteada é : {}' .format(sorteio))
 
 # ou
