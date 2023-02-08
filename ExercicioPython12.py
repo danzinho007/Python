@@ -6,4 +6,3 @@ n1 = float(input('Diga o Cateto Oposto : '))
 n2 = float(input('Diga o Cateto Adjacente : '))
 hip = (n1 ** 2) + (n2 ** 2)
 print('A hipotenusa vale {}' .format(hip))
-
