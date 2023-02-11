@@ -3,10 +3,12 @@ print('de Boas-Vindas de acordo com a mensagem digitada')
 nome = input('Qual e o seu nome ? ')
 print('Olá',nome,',seja bem-vindo !')
 print('Olá {}, seja bem-vindo !'. format(nome))
+
 print('2-Criar Script que leia o dia, o mês e o ano de nascimento e') 
 print('mostr uma mensagem com a data formatada')
-nasci = input('Qual dia, mês e ano você nasceu ?')
+nasci = input('Qual dia, mês e ano você nasceu ? ')
 print(nasci)
+
 print('3-Criar Script que leia dois números e tente mostrar a soma')
 print('entre eles')
 n1 = input('Digite o 1° número : ')
@@ -18,7 +20,7 @@ print(type(n3))
 #s1 = n1 + n2 < Erro pois o valor n1 é um string
 s2 = n2 + n3
 print('A soma vale ', s2) 
-print('A soma entre ', n2, 'e', n3, 'vale', s2)
+print('A soma entre', n2, 'e', n3, 'vale', s2)
 print('A soma entre {} e {} vale {}' .format(n2, n3, s2))
 print('A soma entre {0} e {1} vale {2}' . format(n2, n3, s2))
 
