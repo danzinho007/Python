@@ -19,3 +19,28 @@ n5 = 5
 print('A pessoa sorteada é : {}' .format(sorteio))
 
 # ou
+
+import random
+# ou from random import choice, remover random
+
+n1 = str(input('Primeiro aluno: '))
+n2 = str(input('Segundo aluno: '))
+n3 = str(input('Terceiro aluno: '))
+n4 = str(input('Quarto aluno: '))
+n5 = str(input('Quinto aluno: '))
+lista = [n1, n2, n3, n4]
+escolhido = random.choice(lista)
+print('O aluno escolhido foi {}' .format(escolhido))
+
+# ou
+
+from random import choice
+
+n1 = str(input('Primeiro aluno: '))
+n2 = str(input('Segundo aluno: '))
+n3 = str(input('Terceiro aluno: '))
+n4 = str(input('Quarto aluno: '))
+n5 = str(input('Quinto aluno: '))
+lista = [n1, n2, n3, n4]
+escolhido = choice(lista)
+print('O aluno escolhido foi {}' .format(escolhido))
