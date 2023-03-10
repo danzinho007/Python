@@ -8,43 +8,44 @@ from math import acos
 coss = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import isclose
-v31 = math.acos(num)
+from math import remainder
+v51 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import isfinite
-v32 = math.acos(num)
+from math import sin
+v52 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import isinf
-v33 = math.acos(num)
+from math import sinh
+v53 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import isnan
-v34 = math.acos(num)
+from math import sqrt
+v54 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import isqrt
-v35 = math.acos(num)
+from math import tan
+v55 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import lcm
-v36 = math.acos(num)
+from math import tanh
+v56 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import ldexp
-v37 = math.acos(num)
+from math import tau
+v57 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import lgamma
-v38 = math.acos(num)
+from math import trunc
+v58 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import log
-v39 = math.acos(num)
+from math import ulp
+v59 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import log10
-v40 = math.acos(num)
+# from math import _SupportsCeil
+# Não existe esse objeto ( classe ) no módulo Matemático
+v60 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 

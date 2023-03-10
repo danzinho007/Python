@@ -9,267 +9,49 @@ coss = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
 from math import acosh
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
+v1 = math.acosh(num)
+print('O acos de {} é igual a {}' .format(num, v1))
 
 from math import asin
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
+v2 = math.asin(num)
+print('O acos de {} é igual a {}' .format(num, v2))
 
 from math import asinh
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
+v3 = math.asinh(num)
+print('O acos de {} é igual a {}' .format(num, v3))
 
 from math import atan
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
+v4 = math.atan(num)
+print('O atan de {} é igual a {}' .format(num, v4))
 
-from math import atan2
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
+# from math import atan2
+# A função atan2() calcula a tangente inversa de dois números passados como argumentos, sendo o primeiro argumento a coordenada y e o segundo argumento a coordenada x de um ponto em um plano cartesiano. A mensagem de erro indica que a função foi chamada com apenas um argumento, então você precisa fornecer dois argumentos para a função atan2().
+# v5 = math.atan2(num)
+# print('O acos de {} é igual a {}' .format(num, v5))
 
-from math import atanh
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
+# Ver Python34.py
+# from math import atanh
+# # Pra funcionar o número precisa estar entre -1 e 1
+# # Precisa ser um número flutuante
+# v6 = math.atanh(num)
+# print('O atanh de {} é igual a {}' .format(num, v6))
 
 from math import cbrt
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
+v7 = math.cbrt(num)
+print('O acos de {} é igual a {}' .format(num, v7))
 
 from math import ceil
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
+v8 = math.ceil(num)
+print('O acos de {} é igual a {}' .format(num, v8))
 
-from math import comb
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
+# Ver Python34.py
+# from math import comb
+# A função comb() é usada para calcular o número de combinações de n objetos tomados r de cada vez. Para corrigir o erro, você precisa passar dois argumentos para a função comb(): o primeiro argumento é o número total de objetos e o segundo argumento é o número de objetos escolhidos em cada combinação.
+# v9 = math.comb(num)
+# print('O acos de {} é igual a {}' .format(num, v9))
 
-from math import copysign
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import cos
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import cosh
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import degrees
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import dist
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import e
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import erf
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import erfc
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import exp
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import exp2
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import expm1
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import fabs
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import factorial
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import floor
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import fmod
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import frexp
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import fsum
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import gamma
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import gcd
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import hypot
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import inf
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import isclose
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import isfinite
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import isinf
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import isnan
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import isqrt
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import lcm
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import ldexp
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import lgamma
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import log
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import log10
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import log1p
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import log2
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import modf
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import nan
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import nextafter
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import perm
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import pi
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import pow
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import prod
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import radians
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import remainder
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import sin
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import sinh
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import sqrt
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import tan
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import tanh
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import tau
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import trunc
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-from math import ulp
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-# from math import _SupportsCeil
-# Não existe esse objeto ( classe ) no módulo Matemático
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-# from math import _SupportsFloor
-# Não existe esse objeto ( classe ) no módulo Matemático
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-# from math import _SupportsFloatOrIndex
-# Não existe esse objeto ( classe ) no módulo Matemático
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-# from math import _SupportsTrunc
-# Não existe esse objeto ( classe ) no módulo Matemático
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-# from math import _T
-# Não existe esse objeto ( classe ) no módulo Matemático
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
-
-# from math import _T_co
-# Não existe esse objeto ( classe ) no módulo Matemático
-coss = math.acos(num)
-print('O acos de {} é igual a {}' .format(num, coss))
+# Ver Python34.py
+# from math import copysign
+# #  a função math.copysign(), que espera dois argumentos. A função copysign() é usada para retornar um número com o valor absoluto de um argumento (num) e o sinal do outro argumento (sign).
+# v10 = math.copysign(num)
+# print('O acos de {} é igual a {}' .format(num, v10))

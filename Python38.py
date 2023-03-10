@@ -1,35 +1,41 @@
-# Desafios 
+# Testando fmod(x, y)
+import math
 
-# 22
-# Crie um programa que leia o nome completo de uma pessoa e mostre :
-# O nome com todas as letras Maiúsculas
-# O nome com todas as letras minúsculas
-# Quantas letras ao todo ( sem considerar espaços )
-# Quantas letras tem o primeiro nome
+num1 = float(input('Digite o dividendo: '))
+num2 = float(input('Digite o divisor: '))
 
-# 23
-# Faça um programa que leia um número de 0 a 9.999 e mostre na tela cada um dos dígitos separados 
-# Ex Digite um nùmero : 1.834
-# unidade : 4
-# dezena : 3
-# centena : 8
-# milhar : 1
-# Fazer com String e Matematicamente !!!
+v24 = math.fmod(num1, num2)
 
-# 24 
-# Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome "Santo"
+print('O resto da divisão entre {} e {} é igual a {}'.format(num1, num2, v24))
 
-# 25
-# Crie um programa que leia o nome de uma pessoa e diga se ela tem "Silva" no nome
+# 
 
-# 26
-# Faça um programa que leia uma frase pelo teclado e mostre :
-# Quantas vezes aparece a letra "A"
-# Em que posição ela aparece a primeira vez 
-# Em que posição ela aparece a última vez
+import math
 
-# 27 
-# Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente
-# Ex : Ana Maria de Souza
-# primeiro : Ana
-# último : Souza
+num1 = float(input('Digite o dividendo: '))
+num2 = float(input('Digite o divisor: '))
+
+q, r = divmod(num1, num2)
+
+print('A divisão de {} por {} resulta em {} com resto igual a {}'.format(num1, num2, q, r))
+
+
+# -------------------------------------------
+
+# Testando fsum(x,y,)
+import math
+
+num = [1, 2, 3, 4, 5]
+v26 = math.fsum(num)
+print(v26)
+
+# 
+
+# Testando inf
+import math
+
+v30 = math.inf  # infinito positivo
+print(v30)  # saída: inf
+
+v31 = -math.inf  # infinito negativo
+print(v31)  # saída: -inf

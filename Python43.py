@@ -8,43 +8,43 @@ from math import acos
 coss = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import isclose
-v31 = math.acos(num)
+from math import log1p
+v41 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import isfinite
-v32 = math.acos(num)
+from math import log2
+v42 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import isinf
-v33 = math.acos(num)
+from math import modf
+v43 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import isnan
-v34 = math.acos(num)
+from math import nan
+v44 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import isqrt
-v35 = math.acos(num)
+from math import nextafter
+v45 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import lcm
-v36 = math.acos(num)
+from math import perm
+v46 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import ldexp
-v37 = math.acos(num)
+from math import pi
+v47 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import lgamma
-v38 = math.acos(num)
+from math import pow
+v48 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import log
-v39 = math.acos(num)
+from math import prod
+v49 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
-from math import log10
-v40 = math.acos(num)
+from math import radians
+v50 = math.acos(num)
 print('O acos de {} é igual a {}' .format(num, coss))
 
