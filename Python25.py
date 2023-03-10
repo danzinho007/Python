@@ -34,4 +34,3 @@ print(num4)
 # Operações que tem em math : Testar todas !!!
 #Digitando from math import e depois CTRL + Espaço, a pessoa pode ver todas operações que tem em math
 
-

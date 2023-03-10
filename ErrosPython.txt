@@ -1,0 +1,20 @@
+Erros Python :
+
+ ImportError
+cannot import name '_SupportsCeil' from 'math' (unknown location)
+  File "...PC-  Notas\Python\Python33.py", line 247, in <module>
+    from math import _SupportsCeil
+ImportError: cannot import name '_SupportsCeil' from 'math' (unknown location)
+
+Esse erro ocorre quando você está tentando importar o objeto _SupportsCeil do módulo math, mas esse objeto não existe nesse módulo. 
+----------------------------------------------------
+
+ValueError
+math domain error
+  File "...PC-  Notas\Python\Python33.py", line 7, in <module>
+    coss = math.acos(num)
+           ^^^^^^^^^^^^^^
+ValueError: math domain error
+
+Esse erro ocorre quando a função math.acos() recebe um número que está fora do intervalo de [-1, 1].
+

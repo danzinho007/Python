@@ -15,4 +15,3 @@ dm = n4 * 10
 cm = n4 * 100
 mm = n4 * 1000
 input('A medida de {} é de {:.0f} dm, {:.0f} cm e {:.0f}mm' .format(n4, dm, cm, mm))
-
