@@ -3,10 +3,12 @@ print('entre eles')
 n1 = input('Digite o 1° número : ')
 print(type(n1))
 n2 = int(input('Digite o 2° número : ')) # int(input) Converte a string em número
+
 print(type(n2))
 n3 = int(input('Digite o 3° número : '))
 print(type(n3))
 #s1 = n1 + n2 < Erro pois o valor n1 é um string
+
 s2 = n2 + n3
 print('A soma vale ', s2) 
 print('A soma entre', n2, 'e', n3, 'vale', s2)
