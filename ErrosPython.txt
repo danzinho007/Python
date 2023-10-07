@@ -1,5 +1,28 @@
 Erros Python :
 
+----------------------------------------------------
+
+Expected expressionPylance
+É quando o interpretador ou compilador encontra um local onde espera uma expressão válida, mas não a encontra. Isso pode acontecer por vários motivos. Aqui estão algumas possíveis causas e soluções:
+
+Falta de uma expressão:
+
+Certifique-se de que há uma expressão válida na posição onde o erro ocorreu. Pode ser uma expressão matemática, uma chamada de função, uma atribuição, etc.
+Uso incorreto de operadores:
+
+Verifique se os operadores estão sendo usados de acordo com a sintaxe da linguagem. Por exemplo, se você estiver usando Python, certifique-se de que os operadores estejam sendo usados corretamente.
+Falta de parênteses:
+
+Se você estiver fazendo uma chamada de função, certifique-se de que os parênteses estejam corretamente equilibrados. Por exemplo, funcao() em vez de funcao.
+Erros de sintaxe anteriores:
+
+Às vezes, erros anteriores no código podem levar a um erro "Expected expression" posterior. Certifique-se de corrigir quaisquer erros de sintaxe anteriores.
+Problemas de indentação:
+
+Se você estiver programando em uma linguagem que depende da indentação (como Python), certifique-se de que a indentação esteja correta, pois isso também pode causar erros de sintaxe.
+
+----------------------------------------------------
+
  ImportError
 cannot import name '_SupportsCeil' from 'math' (unknown location)
   File "...PC-  Notas\Python\Python33.py", line 247, in <module>
@@ -7,6 +30,24 @@ cannot import name '_SupportsCeil' from 'math' (unknown location)
 ImportError: cannot import name '_SupportsCeil' from 'math' (unknown location)
 
 Esse erro ocorre quando você está tentando importar o objeto _SupportsCeil do módulo math, mas esse objeto não existe nesse módulo. 
+
+----------------------------------------------------
+
+NameError
+name 'Testando' is not defined
+  File "C:\Users\Daniel\Documents\PC-  Notas\Python\Python01.py", line 8, in <module>
+    msg1 = Testando
+           ^^^^^^^^
+NameError: name 'Testando' is not defined
+
+----------------------------------------------------
+
+Statements must be separated by newlines or semicolonsPylance
+
+----------------------------------------------------
+
+SyntaxError: invalid syntax
+
 ----------------------------------------------------
 
 ValueError
