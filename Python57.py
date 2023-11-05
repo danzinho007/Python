@@ -1,3 +1,5 @@
+# Jogo de Advinhar número gerado de 1 a 100 contando todas tentativas
+
 import random
 def gera():
     return random.randint(1, 100)
