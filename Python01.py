@@ -8,8 +8,8 @@ print(msg)
 msg0 = "Olá Mundo"
 print("O valor de msg0 é : " + msg0)
 
-#msg1 = Testando
-#print(msg1)
+# msg1 = Testando
+# print(msg1)
 
 # A variável não reconhece a string
 
