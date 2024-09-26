@@ -93,3 +93,4 @@ print(msg13)
 # Resposta : 2³ = 2 x 2 ( 4 ) x 2 ( 8 ) > 2
 #  2 elevado a 4/3 = ... ... de 2 elevado a 4
 # Resposta : 2 x 2 ( 4 ) x 2 ( 8 ) x 2 ( 16 ) 
+
