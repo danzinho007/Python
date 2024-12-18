@@ -3,10 +3,10 @@ import random
 import shutil
 
 # Caminho da pasta que contém as imagens
-caminho_origem = r"C:\Users\Daniel\Pictures\Nomear"
+caminho_origem = r""
 
 # Caminho onde as novas pastas serão criadas
-caminho_destino = r"C:\Users\Daniel\Destino"  # Ajuste para o caminho desejado
+caminho_destino = r""  # Ajuste para o caminho desejado
 
 # Número de arquivos por pasta
 arquivos_por_pasta = 10

@@ -3,7 +3,7 @@ import pandas as pd
 import time
 
 # Sua chave de API
-API_KEY = "23d0840d5934c839410df8e7f3098842e9f652c8ef53fdfc17483df82c62cb3c"
+API_KEY = ""
 
 # URLs da API
 BASE_URL = "https://letslogic.com/api/v1"

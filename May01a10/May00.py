@@ -1,10 +1,8 @@
 import colorama
-
 # Inicializa a biblioteca colorama
 colorama.init()
-
 # Exibe texto em diferentes cores
-print(colorama.Fore.RED + "Vermelho")
+print(colorama.Fore.RED + "\nVermelho")
 print(colorama.Fore.GREEN + "Verde")
 print(colorama.Fore.YELLOW + "Amarelo")
 print(colorama.Fore.BLUE + "Azul")
@@ -34,4 +32,4 @@ print(colorama.Back.RESET)
 print(colorama.Fore.RED + colorama.Back.GREEN + colorama.Style.BRIGHT + "Olá Mundo" + colorama.Style.RESET_ALL)
 
 # Exibe texto com reset
-print(colorama.Fore.GREEN + "Texto verde" + colorama.Style.RESET_ALL + " e texto normal")
+print(colorama.Fore.GREEN + "Texto verde" + colorama.Style.RESET_ALL + " e texto normal\n")

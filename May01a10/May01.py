@@ -1,5 +1,5 @@
 # 1
-print('\033(1;32;40m Olá Mundo\033[m')
+print('\n\033(1;32;40m Olá Mundo\033[m')
 # 2
 print("\033[1;32;40m Olá Mundo\033[m")
 
@@ -14,7 +14,7 @@ init()
 
 print(f"{Fore.GREEN}Olá Mundo{Style.RESET_ALL}")
 print(f"{Back.RED}{Fore.GREEN}Olá Mundo{Style.RESET_ALL}")
-print(f"{Back.RED}{Fore.GREEN}{Style.BRIGHT}Olá Mundo{Style.RESET_ALL}")
+print(f"{Back.RED}{Fore.GREEN}{Style.BRIGHT}Olá Mundo{Style.RESET_ALL}\n")
 # - f-string é usado para formatação de string. Ele permite inserir expressões python dentro de strings.
 
 # - Fore.GREEN é uma constante da biblioteca colorama que representa a cor verde.
