@@ -1,6 +1,6 @@
-# Create a program that asks for the user's name and writes a welcome message.
+print("\nCreate a program that asks for the user's name and writes a welcome message.")
 
-name = input('What is your name: ')
+name = input('\nWhat is your name: ')
 # Guardando algo na variável name usando o comando input
 
 print(f'Nice meet you, {name}!')  # Caso 1
@@ -15,3 +15,11 @@ print('Nice meet you, ' + name,"!") # Caso 3
 # 3 = Concatenando string
 
 # Recomendado : 1, 2 ou 3
+
+print("\nAtualização !!!")
+print(f"\nOutro modo", end=" de escrever na tela")
+print(f"\nOu ", end="")
+print("desse jeito")
+
+print("\nNice meet you %s" % (name))
+print("Nice meey you {:s}\n".format(name))

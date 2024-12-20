@@ -1,19 +1,19 @@
-print("\nWrite a program that reads a value in meters and displays it converted into centimeters and millimeters.")
+print("\nCreate a program that reads how much money a person has in their wallet and shows how many dollars they can buy.")
+# Site usado : https://www.melhorcambio.com/peso-argentino-hoje
 
-# Lembrando : 
-# Quilômetro, Hectômetro, Decâmetro, Metro
-# Decímetro, Centímetro, Milímetro
-# Km Hm Dam M Dm Cm Mm
-#  1  0  0 0  0  0  0 = 1km = 1 000m = 100 000mm
-# Ou seja : 1km > m é 1 x 1000 = 1000m
-# 1m = 0,001 km
-# Ou seja : 1m > km é 1 / 1000 = 0,001km
+# 1 iene           = 0.0396 reais
+# 1 peso argentino = 0.0060 reais
+# 1 dólar          = 6.04 reais
 
-metro=float(input("\nDigite o valor em metros que deseja converter : "))
+# 1 dólar = 5.45 reais
+# x = 5.45 
+# x = 5.45 / 5.45  > x = 1 dólar
 
-print(f"{metro} em cm fica : {metro*0.001:.3f} km")
-print(f"{metro} em cm fica : {metro*0.01:.2f} hm")
-print(f"{metro} em cm fica : {metro*0.1:.1f} dam")
-print(f"{metro} em cm fica : {metro*10} dm")
-print(f"{metro} em cm fica : {metro*100} cm")
-print(f"{metro} em cm fica : {metro*100} mm\n")
+reais=float(input("\nDigite o valor em reais : R$ "))
+print(f"O valor {reais} reais em dólar é {reais / 6.04:.2f}")
+print(f"O valor {reais} reais em ienes é {reais / 0.0396:.2f}")
+print(f"O valor {reais} reais em pesos argentinos é {reais / 0.0060:.2f}\n")
+
+# Agora ao contrário
+dolar=float(input("\nDigite o valor em dólares : $ "))
+print(f"O valor {dolar} dólares em reais é {dolar * 6.04:.2f}\n")

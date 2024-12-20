@@ -1,15 +1,5 @@
-print("\nDevelop a program that reads a student's two grades, calculates and displays their average.")
+print("# Write a program that reads any integer and displays its multiplication table on the screen.")
 
-# Perguntando, convertendo o conteúdo pra real e guardando na variável teste :
-print("O número deve ser digitado de forma inteira (8) ou decimal (6.72")
-print("Não use vírgulas !!!")
-
-# teste : 6.72 com 8 > 14.72 / 2 é 1472 / 200
-# 1472  | 200
-#   7   | 7.36
-#   12  |
-#    0  |
-
-teste=float(input("\nQual foi a nota do teste ? "))
-prova=float(input("Qual foi a nota da prova ? "))
-print(f"A média de {teste} e {prova} é de {(teste + prova) / 2 :.2f}\n")
+number=float(input("\nDigite um número e irei mostrar a tabela de multiplicação dele : "))
+print(f"{number} * 1 = {number*1}\n{number} * 2 = {number*2}\n{number} * 3 = {number*3}\n{number} * 4 = {number*4}\n{number} * 5 = {number*5}")
+print(f"{number} * 6 = {number*6}\n{number} * 7 = {number*7}\n{number} * 8 = {number*8}\n{number} * 9 = {number*9}\n{number} * 10 = {number*10}\n")
