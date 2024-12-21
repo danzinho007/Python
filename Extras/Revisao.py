@@ -11,6 +11,9 @@
 
 import colorama
 import math
+import random
+import string
+
 colorama.init()
 
 print("\nComentários em Python : ")
@@ -37,11 +40,32 @@ idade=int(input("\nQuantos anos você tem ? "))
 print(f"{name} tem {idade} anos")
 print(f"O tipo de conteúdo na variável idade é {type(idade)}")
 
+print("\nTipos : ")
+print("TIpo primitivo")
+print("Tipo composto")
+print("Tipos de Funções e Objetios")
+print("Tipos Especiais")
+print("Tipos em Bibliotecas e Pacotes")
+print("Tipos de Arquivo e Entrada / Saída")
+print("Tiposde Anotações")
+print("Tipos Genéticos")
+print("Tipos de Exceções")
+print("Outros ")
+
 print("\nOutros comandos : ")
+print("Acessar nome em variável")
+print("Capitalização")
+print("Dividir palavras")
+print("Juntar palavras")
 print("Lista")
 print("Embaralhar lista")
 print("Ordenar lista")
 print("Sortear lista")
+print("Maiúsculo")
+print("Minúsuclo")
+print("Remover espaços")
+print("Strip : Remover espaços em string")
+print("Título")
 
 print("\nOperadores matemáticos : ")
 print("Adição : +")
@@ -83,6 +107,11 @@ print("Enquanto : while")
 print("Enquanto algo for Verdadeiro, executa e volta")
 print("Caso venha ser falso, pula fora")
 
+print("\nBiblioteca colorama : import colorama")
+print("Texto colorido")
+print("Texto com estilo diferente")
+print("Texto com fundo colorido")
+
 print("\nBiblioteca math : import math")
 print("Ângulo")
 print("Arco")
@@ -96,7 +125,9 @@ print("Logaritmo")
 print("Pi")
 print("Potência")
 print("Raiz quadrada")
-print("Truncamento")
+print("Truncamento = Parte inteira")
+
+print("\nBiblioteca pygame : import pygame")
 
 print("\nBiblioteca random : imprt random")
 print("Escolher algo de uma lista")
@@ -107,5 +138,7 @@ print("Sortear 3 pessoas")
 print("Embaralhar uma lista")
 print("Geral número decimal")
 
-print("Biblioteca random com string : ")
+print("\nBiblioteca string : ")
+
+print("\nBiblioteca random com string : ")
 print("Gerar senha aleatória")

@@ -7,6 +7,7 @@ import random
 # O que vem de um input é uma string !!!
 nameOne = input('First students name:')
 print(f"{type(nameOne)}")   
+print(f"{nameOne} é {type(nameOne)}")   
 nameTwo = input('Second students name:')
 nameThree = input('Third students name:')
 nameFour = input('Fourth students name:')

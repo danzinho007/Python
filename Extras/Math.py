@@ -1,7 +1,6 @@
- 
-import math
-
 print("\nBiblioteca math : ")
+
+import math
 
 print("\nCalcular Logaritmo : ")
 # Relembrando : 
