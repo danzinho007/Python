@@ -1,0 +1,63 @@
+Comandos de Python :
+
+count = 22,26
+
+find = 26
+rfind = 26
+
+float = 07,09,10,
+        11,12,13,14,15,16,17,18
+        23
+int = 03,05,15
+
+if ... else = 28,29,30
+
+input = 02,03,04,05,07,08,10,
+        11,12,13,14,15,16,17,18,19,20
+        22,23,24,25,26,27,28
+
+isalnum = 04
+isalpha = 04
+isascii = 04
+isdecimal = 04
+isdigit = 04
+isidentifier = 04
+islower = 04
+isnumeric = 04
+isprintable = 04
+isspace = 04
+istitle = 04
+isupper = 04
+
+list = 19,20
+list.sort() = 20
+
+lower = 22,25
+upper = 22,24
+
+print = 01,02,03,04,05,07,08,09,10,
+        11,12,13,14,15,16,17,18,19,20
+        21,22,23,24,25,26,27,28
+
+Biblioteca pygame :
+pygame.init = 21
+pygame.mixer.music.load = 21
+pygame.mixer.music.play = 21
+
+Biblioteca random :
+randint = 28
+random.choice = 19
+random.shuffle = 20
+
+join = 22,27
+len = 22
+capitalize = 22
+split = 22,24,25,27
+strip = 22,24,25,27
+title = 22,24,25,27
+
+# ' '.join(): Junta as palavras da lista em uma única string, separadas por um único espaço.
+# capitalize(): Aplica a capitalização apenas na primeira palavra (o restante fica em minúsculas).
+# strip(): Remove espaços no início e no final da string.
+# split(): Divide a string em uma lista de palavras, ignorando os espaços extras.
+# capitalize(): Aplica a capitalização apenas na primeira palavra (o restante fica em minúsculas).
