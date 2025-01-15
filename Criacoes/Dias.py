@@ -1,8 +1,8 @@
 from datetime import datetime, timedelta
 
 # Data inicial para começar a contagem
-data_inicial = datetime(2024, 12, 9)  # 9 de dezembro de 2024
-data_final = datetime(2025, 1, 31)    # 31 de janeiro de 2025
+data_inicial = datetime(2024, 11, 13)  # 9 de dezembro de 2024
+data_final = datetime(2025, 1, 6)    # 31 de janeiro de 2025
 
 # Variáveis auxiliares
 contador_dia = 1  # Número do dia
