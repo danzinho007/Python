@@ -21,7 +21,7 @@ print(f"{Back.RED}{Fore.GREEN}{Style.BRIGHT}Olá Mundo{Style.RESET_ALL}\n")
 
 # - Style.RESET_ALL é outra constante da biblioteca colorama que reseta a cor do texto para a cor padrão do terminal.
 
-"""
+""" 
 Cores:
 - Fore.BLACK
 - Fore.RED
