@@ -12,7 +12,8 @@ int = 03,05,15
 
 if ... else = 28,29,30
 
-input = 02,03,04,05,07,08,10,
+input = Janela de comando pro usuário digitar
+        02,03,04,05,07,08,10,
         11,12,13,14,15,16,17,18,19,20
         22,23,24,25,26,27,28
 
@@ -29,15 +30,26 @@ isspace = 04
 istitle = 04
 isupper = 04
 
+len(variavel) = Calcula o tamanho de algo
 list = 19,20
 list.sort() = 20
 
 lower = 22,25
 upper = 22,24
 
-print = 01,02,03,04,05,07,08,09,10,
+print = Imprime algo na tela
+        01,02,03,04,05,07,08,09,10,
         11,12,13,14,15,16,17,18,19,20
         21,22,23,24,25,26,27,28
+
+Outros:
+
+variavel = input(mensagem) = Guarda a informacao que o usuario digitar na variavel
+
+Biblioteca colorama :
+{Fore.GREEN} = Escreve letra verde
+{Back.RED}   = Fundo vermelho
+{Style.BRIGHT} = Estilo de letra
 
 Biblioteca pygame :
 pygame.init = 21
@@ -61,3 +73,17 @@ title = 22,24,25,27
 # strip(): Remove espaços no início e no final da string.
 # split(): Divide a string em uma lista de palavras, ignorando os espaços extras.
 # capitalize(): Aplica a capitalização apenas na primeira palavra (o restante fica em minúsculas).
+
+Biblioteca re
+
+match.rstrip('0'):
+Remove os zeros somente no final da sequência, desde que eles não estejam seguidos de outra letra ou número.
+
+re.findall(r'\d+[A-Za-z]', variavel)
+Captura números seguidos por uma letra.
+Não pega zeros isolados no final.
+
+re.findall(r'\d+[A-Za-z](?=\d*[^0])|\d+[A-Za-z]', dados1):
+\d+[A-Za-z] encontra números seguidos de letras.
+O trecho (?=\d*[^0]) é uma lookahead assertion que garante que, após a sequência alfanumérica, não existem apenas zeros.
+
