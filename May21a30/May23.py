@@ -4,11 +4,11 @@ print("Escreva um programa que leia um número de 0 a 9999 e exiba cada um dos d
 
 # Relembrando :
 # Unidade = 1
-# Dezana  = 10
+# Dezena  = 10
 # Centena = 100
 # Milhar  = 1000
 # Dezena de milhar  = 10000
-# Centeza de milhar = 100000 
+# Centeza de milhar = 10000 
 # Milhões =
 # Dezena de milhões
 # Centena de milhões
