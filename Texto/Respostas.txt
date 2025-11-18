@@ -1,0 +1,22 @@
+Respostas:
+
+1-print : Imprime algo na tela
+2-n1 = 10
+3-Comentário : #
+4-
+5- ==
+
+6-Lista :
+Tupla :
+7-Pausa 
+8-Funções :
+9-Import : Importar bibliotecas
+10-is : e 
+== Igual 
+
+11-Decorador :
+12-threading :
+multiprocessing :
+13-list comprehension :
+14- @ :
+15-closure :

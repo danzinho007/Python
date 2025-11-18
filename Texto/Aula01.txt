@@ -1,0 +1,33 @@
+
+O que faz a função print em python ?
+Imprimir linha
+
+Qual a diferença entre "=" para "==" ?
+= Atribuição
+== Idêntico
+
+O que é "\n" em python ?
+Pular linha
+
+O que é "\t" em python ?
+Tabulação, é a mesma coisa que apertar TAB no teclado
+Ou seja, ele pula 4 espaços 
+
+O que é "r" em python ?
+Roll, interpreta as coisas como elas estão escritas
+
+Tipos de dados:
+
+Exemplo:
+x = 23
+type(x)
+saída = inteiro
+
+Inteiro = 23
+Float ( Números Reais ) = 100.20
+String = 'texto' "23" '''texto em linhas'''
+Quando junta 2 números em string se concatena
+"23" + "23" = "2323"
+Booleano = "True" "False"
+Complex ( Números Complexo ) = 4 + 3j
+( Número real + Imaginário )

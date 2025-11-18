@@ -1,0 +1,55 @@
+# Modulos Matematicos
+# https://docs.python.org/pt-br/3/library/random.html?highlight=random#
+
+random() 
+Retorna uma número entre 0.0 e 1.0
+
+random.betavarieate()
+
+random.choice('Win', 'Lose', 'Draw')
+Retorna algo dentre uma sequência ( ex : Win ou Lose ou Draw )
+
+# random.choices()
+# random.expovariate(1/X)
+Retorna um número variável de X ( Ex : 5.20 )
+
+# random.gammavariate()
+# random.gauss()
+# random.getrandbits()
+# random.getstate()
+# random.lognormavariate()
+# random.normalvariate()
+# random.paretovariate()
+# random.randbytes()
+# random.randint()
+
+# random.random()
+Retorna uma número entre 0.0 e 1.0
+
+random.randrange(X)
+Retorna um número entre 0 e X - 1
+
+random.randrange(X, Y, 1)
+Retorna um número ímpar entre X e Y - 1
+
+random.randrange(X, Y, 2)
+Retorna um número inteiro par entre X e Y - 1
+
+# random.sample()
+# random.seed()
+# random.setstate()
+
+random.shuffle()
+Embaralha uma Lista
+Exemplo : 
+deck ='one two three'.split()
+shuffle(deck)
+deck
+['three', one', 'two']
+
+# random.triangular
+random.uniform(X, Y)
+Retorna um número entre X e Y
+
+# random.vonmisesvariate()
+# random.weibullvariate()

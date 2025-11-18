@@ -1,0 +1,15 @@
+Comandos do Python:
+
+\n = Pula linha
+
+float = Tipo de dado pra número real 
+Exemplo 24.5 
+No python se usa "ponto" pra separar a parte inteira da decimal
+
+input = Abre uma caixa de texto pro usuário digitar algo
+
+int = Tipo de dado pra número inteiro
+
+print = Imprime algo na tela
+
+str = Tipo de dado pra string

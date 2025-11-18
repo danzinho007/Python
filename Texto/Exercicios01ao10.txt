@@ -1,0 +1,18 @@
+
+01- Mostrar "Olá Mundo" na tela
+02-Criar um programa que pergunte o nome da pessoa e depois diga "Seja bem vindo NomeDaPessoa"
+03-Criar um programa que lê 2 números e realize as operações matemáticas 
+( Adição, Subtração, Multiplicação, Divisão, Divisão Inteira, Módulo e Potenciação )
+04-Crie um programa que leia algo e digta seu tipo primitivo 
+( Recomendo https://docs.python.org/pt-br/3.5/library/stdtypes.html  )
+Famosa família is, vai de isalnum até isupper )
+05- Escreva um programa que leia um número e mostre seu antecessor, sucessor, metade, dobro, triplo e a raiz quadrada dele
+
+06-Escreva um programa que dê a média de 2 notas de um aluno ( teste e prova vale 10 cada )
+07-Escreva um programa que lê o valor em metros e mostra seu valor em todas medidas 
+( km hM dM dm cm mm )
+08-Escreva um programa que leia um número inteiro e mostra a tabela de multiplicação dele de 1 a 10
+09- Escreva um programa que converta reais em pelo menos 3 moedas diferentes ( 1 que seja maior que o real,  outra que seja menor e a 3° a sua escolha
+Site https://www.melhorcambio.com/peso-argentino-hoje
+10- Escreva um programa que leia a largura e altura em metros de uma parede, depois calcule a quantidade de litros de tinta pra pintar ela. Sabendo que 1 litro pinta 2 m² 
+

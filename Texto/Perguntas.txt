@@ -1,0 +1,19 @@
+Perguntas:
+
+1-O que o comando print() faz em Python?
+2-Como você declara uma variável que guarda o número 10?
+3-Qual é o símbolo usado para fazer um comentário em Python?
+4-Qual estrutura é usada para repetir um bloco de código várias vezes?
+5-Qual operador é usado para comparar se dois valores são iguais?
+
+6-Qual é a diferença entre lista (list) e tupla (tuple) em Python?
+7-O que o comando break faz dentro de um laço for ou while?
+8- O que são funções em Python e como você cria uma?
+9- Para que serve a palavra-chave import?
+10- Qual é a diferença entre os operadores is e ==?
+
+11-O que é um decorador (decorator) em Python e como ele funciona?
+12- Qual a diferença entre threading e multiprocessing em Python?
+13- Explique o que é uma list comprehension e qual sua vantagem sobre um loop comum.
+14- O que acontece quando você usa o operador @ em Python?
+15- Explique o conceito de “closure” em funções Python e quando ele é útil. 

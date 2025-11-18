@@ -1,19 +1,15 @@
-print("\nCreate a program that reads how much money a person has in their wallet and shows how many dollars they can buy.")
-# Site usado : https://www.melhorcambio.com/peso-argentino-hoje
+print("\nWrite a program that reads the width and height of a wall in meters, calculates the amount of paint needed to paint it, knowing that each liter of paint paints an area of 2m².")
 
-# 1 iene           = 0.0396 reais
-# 1 peso argentino = 0.0060 reais
-# 1 dólar          = 6.04 reais
+# Calculando
+# Parede com 2x2 terá 4 quadrados ou 4m²
+# Se 1 pintura pinta 2m², logo serão necessário :
+# 1l = 2m²
+# x  = 4m² > x = 4/2 > x = 2l
+# Logo serão necessários 2l de tinta
+# Logo Largura * Altura / 2
 
-# 1 dólar = 5.45 reais
-# x = 5.45 
-# x = 5.45 / 5.45  > x = 1 dólar
-
-reais=float(input("\nDigite o valor em reais : R$ "))
-print(f"O valor {reais} reais em dólar é {reais / 6.04:.2f}")
-print(f"O valor {reais} reais em ienes é {reais / 0.0396:.2f}")
-print(f"O valor {reais} reais em pesos argentinos é {reais / 0.0060:.2f}\n")
-
-# Agora ao contrário
-dolar=float(input("\nDigite o valor em dólares : $ "))
-print(f"O valor {dolar} dólares em reais é {dolar * 6.04:.2f}\n")
+print("Digite os valores na forma inteira (2) ou decimal (2.0)")
+width = float(input("\nQuanto de largura a parede tem ? "))
+height = float(input("Quanto de altura a parede tem ? "))
+print(f"Para pintar uma parede de {width} com {height} serão necessários ")
+print(f"{width * height / 2:.2f}l de tinta")
